@@ -12,5 +12,9 @@ class MainActivity : AppCompatActivity() {
 
         layout= ActivityMainBinding.inflate(layoutInflater)
         setContentView(layout.root)
+
+        layout.apply {
+
+        }
     }
 }
